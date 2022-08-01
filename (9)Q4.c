@@ -4,6 +4,8 @@ int main()
     int x,a,b,c;
     printf("1. Check whether a given set of three numbers are lengths of an isosceles triangle or not.\n2. Check whether a given set of three numbers are lengths of sides of a right angled triangle or not.\n3. Check whether a given set of three numbers are equilateral triangle or not\n4. Exit.\nEnter the option.\n");
     scanf("%d",&x);
+    while(1)
+    {
     switch(x)
     {
     case 1:printf("Enter 3 sides.\n");
@@ -31,6 +33,7 @@ int main()
            break;
     default:printf("Invalid choice.");
 }
+    }
     return 0;
 }
 
