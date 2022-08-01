@@ -4,6 +4,8 @@ int main()
     int x,a,b;
     printf("1. Addition\n2. Subtraction\n3. Multiplication\n4. Division\n5. Exit\nEnter the option.\n");
     scanf("%d",&x);
+    while(1)
+    {
     switch(x)
     {
     case 1:
@@ -30,6 +32,7 @@ int main()
            break;
     default:printf("Invalid choice.");
 }
+ }
     return 0;
 }
 
